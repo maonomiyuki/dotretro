@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>レトロドットコンバータ</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-main">
+        <div>
+          <h1 data-i18n="appTitle">レトロドットコンバータ</h1>
+          <p data-i18n="appDesc">画像を固定パレットでレトロなドット絵に変換します。</p>
+        </div>
+        <div class="lang-switch">
+          <label for="languageSelect" data-i18n="languageLabel">言語</label>
+          <select id="languageSelect" aria-label="language">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main id="app">
+      <div id="boot-message" data-i18n="loading">読み込み中…</div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
